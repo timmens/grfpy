@@ -35,6 +35,7 @@ repos:
             flake8-docstrings, flake8-eradicate, flake8-print, flake8-rst-docstrings,
             flake8-todo, pep8-naming, pydocstyle,
         ]
+        args: ["--max-line-length=88"]
 -   repo: https://github.com/PyCQA/doc8
     rev: 0.8.1rc3
     hooks:

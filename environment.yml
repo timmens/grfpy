@@ -17,20 +17,20 @@ dependencies:
   - click
   - jupyterlab
   - nbsphinx
+
   - numpy=1.16
   - pandas<=1.0.5
+
   - pdbpp
   - pytest
   - pytest-cov
   - pytest-xdist
-  - scipy>=1.2.1
     # - sphinx=2.4.4
     # - pydata-sphinx-theme>=0.3.0
     # - sphinxcontrib-bibtex
     # - fuzzywuzzy
     # - joblib
     # - cloudpickle
-  - tox-conda
   - pip:
     - black
     - blackcellmagic
