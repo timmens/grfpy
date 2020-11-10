@@ -40,6 +40,7 @@ repos:
     rev: 0.8.1rc3
     hooks:
         -   id: doc8
+            args: ["--max-line-length=88"]
 -   repo: meta
     hooks:
     -   id: check-hooks-apply
